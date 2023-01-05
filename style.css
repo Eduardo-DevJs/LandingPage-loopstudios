@@ -11,6 +11,10 @@
   --Very-Dark-Gray: hsl(0, 0%, 41%);
 }
 
+body{
+  overflow-x: hidden;
+}
+
 .container-home{
   height: 70vh;
   width: 100vw;
@@ -201,6 +205,7 @@ ul {
 footer{
   background-color: #000;
   padding: 30px;
+  width: 100vw;
   display: flex;
   align-items: center;
   color: #fff;
